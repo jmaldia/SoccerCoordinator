@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1788E41D164C4500E4E6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1788E31D164C4500E4E6D1 /* AppDelegate.swift */; };
+		CC1788E61D164C4500E4E6D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1788E51D164C4500E4E6D1 /* ViewController.swift */; };
+		CC1788E91D164C4500E4E6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1788E71D164C4500E4E6D1 /* Main.storyboard */; };
+		CC1788EB1D164C4500E4E6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1788EA1D164C4500E4E6D1 /* Assets.xcassets */; };
+		CC1788EE1D164C4500E4E6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1788EC1D164C4500E4E6D1 /* LaunchScreen.storyboard */; };
+		CC1788F91D164C4600E4E6D1 /* SoccerCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1788F81D164C4600E4E6D1 /* SoccerCoordinatorTests.swift */; };
+		CC1789041D164C4600E4E6D1 /* SoccerCoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1789031D164C4600E4E6D1 /* SoccerCoordinatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC1788F51D164C4600E4E6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1788D81D164C4500E4E6D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1788DF1D164C4500E4E6D1;
+			remoteInfo = SoccerCoordinator;
+		};
+		CC1789001D164C4600E4E6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1788D81D164C4500E4E6D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1788DF1D164C4500E4E6D1;
+			remoteInfo = SoccerCoordinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC1788E01D164C4500E4E6D1 /* SoccerCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1788E31D164C4500E4E6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC1788E51D164C4500E4E6D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC1788E81D164C4500E4E6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC1788EA1D164C4500E4E6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC1788ED1D164C4500E4E6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC1788EF1D164C4500E4E6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1788F41D164C4600E4E6D1 /* SoccerCoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1788F81D164C4600E4E6D1 /* SoccerCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerCoordinatorTests.swift; sourceTree = "<group>"; };
+		CC1788FA1D164C4600E4E6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1788FF1D164C4600E4E6D1 /* SoccerCoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerCoordinatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1789031D164C4600E4E6D1 /* SoccerCoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerCoordinatorUITests.swift; sourceTree = "<group>"; };
+		CC1789051D164C4600E4E6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1788DD1D164C4500E4E6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1788F11D164C4600E4E6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1788FC1D164C4600E4E6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1788D71D164C4500E4E6D1 = {
+			isa = PBXGroup;
+			children = (
+				CC1788E21D164C4500E4E6D1 /* SoccerCoordinator */,
+				CC1788F71D164C4600E4E6D1 /* SoccerCoordinatorTests */,
+				CC1789021D164C4600E4E6D1 /* SoccerCoordinatorUITests */,
+				CC1788E11D164C4500E4E6D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1788E11D164C4500E4E6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1788E01D164C4500E4E6D1 /* SoccerCoordinator.app */,
+				CC1788F41D164C4600E4E6D1 /* SoccerCoordinatorTests.xctest */,
+				CC1788FF1D164C4600E4E6D1 /* SoccerCoordinatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1788E21D164C4500E4E6D1 /* SoccerCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CC1788E31D164C4500E4E6D1 /* AppDelegate.swift */,
+				CC1788E51D164C4500E4E6D1 /* ViewController.swift */,
+				CC1788E71D164C4500E4E6D1 /* Main.storyboard */,
+				CC1788EA1D164C4500E4E6D1 /* Assets.xcassets */,
+				CC1788EC1D164C4500E4E6D1 /* LaunchScreen.storyboard */,
+				CC1788EF1D164C4500E4E6D1 /* Info.plist */,
+			);
+			path = SoccerCoordinator;
+			sourceTree = "<group>";
+		};
+		CC1788F71D164C4600E4E6D1 /* SoccerCoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1788F81D164C4600E4E6D1 /* SoccerCoordinatorTests.swift */,
+				CC1788FA1D164C4600E4E6D1 /* Info.plist */,
+			);
+			path = SoccerCoordinatorTests;
+			sourceTree = "<group>";
+		};
+		CC1789021D164C4600E4E6D1 /* SoccerCoordinatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1789031D164C4600E4E6D1 /* SoccerCoordinatorUITests.swift */,
+				CC1789051D164C4600E4E6D1 /* Info.plist */,
+			);
+			path = SoccerCoordinatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1788DF1D164C4500E4E6D1 /* SoccerCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1789081D164C4600E4E6D1 /* Build configuration list for PBXNativeTarget "SoccerCoordinator" */;
+			buildPhases = (
+				CC1788DC1D164C4500E4E6D1 /* Sources */,
+				CC1788DD1D164C4500E4E6D1 /* Frameworks */,
+				CC1788DE1D164C4500E4E6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerCoordinator;
+			productName = SoccerCoordinator;
+			productReference = CC1788E01D164C4500E4E6D1 /* SoccerCoordinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC1788F31D164C4600E4E6D1 /* SoccerCoordinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC17890B1D164C4600E4E6D1 /* Build configuration list for PBXNativeTarget "SoccerCoordinatorTests" */;
+			buildPhases = (
+				CC1788F01D164C4600E4E6D1 /* Sources */,
+				CC1788F11D164C4600E4E6D1 /* Frameworks */,
+				CC1788F21D164C4600E4E6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1788F61D164C4600E4E6D1 /* PBXTargetDependency */,
+			);
+			name = SoccerCoordinatorTests;
+			productName = SoccerCoordinatorTests;
+			productReference = CC1788F41D164C4600E4E6D1 /* SoccerCoordinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC1788FE1D164C4600E4E6D1 /* SoccerCoordinatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC17890E1D164C4600E4E6D1 /* Build configuration list for PBXNativeTarget "SoccerCoordinatorUITests" */;
+			buildPhases = (
+				CC1788FB1D164C4600E4E6D1 /* Sources */,
+				CC1788FC1D164C4600E4E6D1 /* Frameworks */,
+				CC1788FD1D164C4600E4E6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1789011D164C4600E4E6D1 /* PBXTargetDependency */,
+			);
+			name = SoccerCoordinatorUITests;
+			productName = SoccerCoordinatorUITests;
+			productReference = CC1788FF1D164C4600E4E6D1 /* SoccerCoordinatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1788D81D164C4500E4E6D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BoonSoh;
+				TargetAttributes = {
+					CC1788DF1D164C4500E4E6D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CC1788F31D164C4600E4E6D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC1788DF1D164C4500E4E6D1;
+					};
+					CC1788FE1D164C4600E4E6D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC1788DF1D164C4500E4E6D1;
+					};
+				};
+			};
+			buildConfigurationList = CC1788DB1D164C4500E4E6D1 /* Build configuration list for PBXProject "SoccerCoordinator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1788D71D164C4500E4E6D1;
+			productRefGroup = CC1788E11D164C4500E4E6D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1788DF1D164C4500E4E6D1 /* SoccerCoordinator */,
+				CC1788F31D164C4600E4E6D1 /* SoccerCoordinatorTests */,
+				CC1788FE1D164C4600E4E6D1 /* SoccerCoordinatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1788DE1D164C4500E4E6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1788EE1D164C4500E4E6D1 /* LaunchScreen.storyboard in Resources */,
+				CC1788EB1D164C4500E4E6D1 /* Assets.xcassets in Resources */,
+				CC1788E91D164C4500E4E6D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1788F21D164C4600E4E6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1788FD1D164C4600E4E6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1788DC1D164C4500E4E6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1788E61D164C4500E4E6D1 /* ViewController.swift in Sources */,
+				CC1788E41D164C4500E4E6D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1788F01D164C4600E4E6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1788F91D164C4600E4E6D1 /* SoccerCoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1788FB1D164C4600E4E6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1789041D164C4600E4E6D1 /* SoccerCoordinatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC1788F61D164C4600E4E6D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1788DF1D164C4500E4E6D1 /* SoccerCoordinator */;
+			targetProxy = CC1788F51D164C4600E4E6D1 /* PBXContainerItemProxy */;
+		};
+		CC1789011D164C4600E4E6D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1788DF1D164C4500E4E6D1 /* SoccerCoordinator */;
+			targetProxy = CC1789001D164C4600E4E6D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC1788E71D164C4500E4E6D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1788E81D164C4500E4E6D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC1788EC1D164C4500E4E6D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1788ED1D164C4500E4E6D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1789061D164C4600E4E6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC1789071D164C4600E4E6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1789091D164C4600E4E6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoccerCoordinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonsoh.SoccerCoordinator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC17890A1D164C4600E4E6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoccerCoordinator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonsoh.SoccerCoordinator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC17890C1D164C4600E4E6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerCoordinatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonsoh.SoccerCoordinatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerCoordinator.app/SoccerCoordinator";
+			};
+			name = Debug;
+		};
+		CC17890D1D164C4600E4E6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerCoordinatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonsoh.SoccerCoordinatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerCoordinator.app/SoccerCoordinator";
+			};
+			name = Release;
+		};
+		CC17890F1D164C4600E4E6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerCoordinatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonsoh.SoccerCoordinatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoccerCoordinator;
+			};
+			name = Debug;
+		};
+		CC1789101D164C4600E4E6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerCoordinatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boonsoh.SoccerCoordinatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoccerCoordinator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1788DB1D164C4500E4E6D1 /* Build configuration list for PBXProject "SoccerCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1789061D164C4600E4E6D1 /* Debug */,
+				CC1789071D164C4600E4E6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1789081D164C4600E4E6D1 /* Build configuration list for PBXNativeTarget "SoccerCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1789091D164C4600E4E6D1 /* Debug */,
+				CC17890A1D164C4600E4E6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC17890B1D164C4600E4E6D1 /* Build configuration list for PBXNativeTarget "SoccerCoordinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC17890C1D164C4600E4E6D1 /* Debug */,
+				CC17890D1D164C4600E4E6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC17890E1D164C4600E4E6D1 /* Build configuration list for PBXNativeTarget "SoccerCoordinatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC17890F1D164C4600E4E6D1 /* Debug */,
+				CC1789101D164C4600E4E6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1788D81D164C4500E4E6D1 /* Project object */;
+}
